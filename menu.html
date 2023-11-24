@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ice Cream Shop</title>
+</head>
+<body>
+  <div class="code_5">
+    <header>
+        <h1>Ice Cream Paradise</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/index.html">Menu</a></li>
+                <li><a href="/index.html">About Us</a></li>
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   <div class="cont">
+    
+    <section id="menu">
+       <div class="head">
+        <h1>Our Menue Constist Of a Variety of ice cream products</h1>
+        <p>Indulge in flavors ranging from light to rich and satisfy your sweet cravings.</p>
+        <p>We are committed to providing your favorite choices made with love and the finest ingredients.</p>
+       </div>
+       <style>
+        .flavour {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 900px; /* Adjust as needed */
+            margin: 0 auto; /* Center the content */
+        }
+    
+        figure {
+            flex: 0 0 calc(33.333% - 20px); /* Three columns with 20px spacing between them */
+            margin: 10px; /* Adjust as needed */
+            text-align: center;
+        }
+    
+        figure img {
+            width: 100%;
+            height: auto;
+        }
+    
+        figcaption {
+            margin-top: 10px;
+        }
+    </style>
+    <div class="flavour">
+
+<figure>
+    <h3>flavours</h3>
+    <img src="/vanilla.jpeg" alt="Description of the image">
+    <figcaption><h4>vannilar @ 5000 /=</h4></figcaption>
+</figure>
+<figure>
+    <img src="/s1.jpeg" alt="Description of the image">
+    <figcaption><h4> strawberry @ 6000 /=</h4></figcaption>
+</figure>
+<figure>
+    <img src="/cho1.jpeg" alt="Description of the image">
+    <figcaption><h4>chocolate @ 5000 /=</h4></figcaption>
+</figure>
+<figure>
+    <img src="min.jpeg" alt="Description of the image">
+    <figcaption>Mint Chocolate Chip @ 7000 /= </figcaption>
+</figure>
+<figure>
+    <img src="coo.jpeg" alt="Description of the image">
+    <figcaption>Cookie Dough @ 10,000 /=</figcaption>
+</figure>
+<figure>
+    <img src="/rok.jpeg" alt="Description of the image">
+    <figcaption>Rocky Road @ 5000 /=</figcaption>
+</figure>
+<figure>
+    <img src="cam.jpeg" alt="Description of the image">
+    <figcaption><h4>Caramel Praline @ 4000 /=</h4></figcaption>
+</figure>
+<figure>
+    <marquee behavior="" direction="left">
+        <div class="ice-cream">
+            <img src="/vanilla.jpeg" alt="Vanilla Ice Cream">
+            <h3>Classic Vanilla</h3>
+            <p>A timeless classic made with the finest vanilla beans.</p>
+            <p class="price">$3.99</p>
+        </div>
+     
+
+    </marquee>
+</figure>
+
+  
+    </div>
+   
+      <style>
+        marquee {
+          white-space: nowrap;
+          overflow: hidden;
+          width: 100%;
+         
+        }
+    
+        marquee {
+          display: inline-block;
+          margin-right: 20px; /* Adjust as needed for spacing between items */
+          animation: marqueeAnimation 5s linear infinite; /* Adjust duration as needed */
+        }
+    
+        @keyframes marqueeAnimation {
+          40% { transform: translateX(90%); }
+          70% { transform: translateX(60%); }
+        }
+      </style>
+    <video autoplay loop muted plays-inline  class="vid">
+        <source   src="/ICE.mp4" type="video/mp4">
+    </video>
+   
+    
+  </div>
+    
+
+   <footer>
+        <p>&copy; kampala,uganda Ice Cream Paradise. All rights reserved. code5_1 creations @mugambeivan</p>
+    </footer>
+</body>
+</html>
