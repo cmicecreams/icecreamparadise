@@ -47,6 +47,610 @@
        
        
        <STYle>
+           body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+   /* background-image: url(/WhatsApp\ Image\ 2023-11-14\ at\ 12.29.57_04a5ddba.jpg);*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    opacity: 100%;
+    background-color: rgb(118, 118, 150);
+}
+h1{
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 10px;
+    flex-direction: column;
+
+}
+p :hover{
+    color-scheme: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 40px;
+    text-shadow: #000 salmon;
+}
+header {
+    background-color: #ffeecc;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px;
+}
+
+footer {
+    background-color: #ffeecc;
+    padding: 10px;
+    text-align: center;
+    bottom: auto;
+    width: 100%;
+}
+
+/*menu*/
+/* Add the following styles at the end of the existing CSS file */
+
+#menu {
+    background-color: #f9f9f9;
+}
+
+.ice-cream {
+    text-align: center;
+   
+}
+
+.ice-cream img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.ice-cream h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.ice-cream p {
+    color: #666;
+}
+
+.price {
+    font-weight: bold;
+    color: #ff6600;
+    font-size: 1.2em;
+}
+/*about*/
+/* Add the following styles at the end of the existing CSS file */
+
+#about {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#about h2 {
+    color: #333;
+}
+
+#about p {
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+/*contact*/
+/* Add the following styles at the end of the existing CSS file */
+
+#contact {
+    background-color: #e6f7ff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#contact h2 {
+    color: #333;
+}
+
+#contact p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-bottom: 40px;
+}
+
+.contact-info a {
+    color: #ff6600;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc5200;
+}
+/*menue*/
+  /* Add the following styles at the end of the existing CSS file */
+  header {
+    background-color: #ffeecc;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+}
+
+a:hover {
+    color: #ff6600;
+}
+
+a:hover::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.2) 0%,
+        rgba(255, 255, 255, 0.5) 50%,
+        rgba(255, 255, 255, 0.2) 100%
+    );
+    animation: lightning 0.5s linear;
+}
+
+@keyframes lightning {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1:hover {
+    color: #ff6600;
+}
+#menu {
+    background-color: #f9f9f9;
+}
+
+.ice-cream {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.ice-cream img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.ice-cream h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.ice-cream p {
+    color: #666;
+}
+
+.price {
+    font-weight: bold;
+    color: #ff6600;
+    font-size: 1.2em;
+}
+/*ice*/
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffeecc;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+section {
+    padding: 50px;
+}
+
+/*
+ <div class="word">
+            <marquee behavior="" direction="up">
+                <pre>
+                    🍦 Indulge in a Sweet Symphony of Flavors at Chill Haven!🍦
+    
+    Craving a delightful escape from the ordinary? Join us at Chill Haven, where every scoop is a journey into bliss! Our premium ice cream parlor is calling out to all ice cream enthusiasts for a symphony of sweet, creamy, and irresistible flavors.
+    
+    Why Choose Chill Haven?
+    
+    ✨ **Decadent Variety:
+     Dive into a world of flavors with our extensive selection of premium ice creams. From classic vanilla to exotic mango sorbet, we have something to tantalize every taste bud.
+    
+    🎉 Family-Friendly Atmosphere:
+    Bring the whole family for a treat-filled day! Our cozy ambiance and welcoming staff create the perfect setting for creating sweet memories.
+    
+    🍨 Guilt-Free Options:
+    Indulge without worries! We offer a range of low-fat and dairy-free options, ensuring there's something for everyone, even those with dietary preferences.
+    
+    🌟 Special Treats for Special Occasions:
+     Celebrate birthdays, anniversaries, or simply the joy of life with our customizable ice cream cakes. Make your moments unforgettable with Chill Haven.
+    
+    Join Us for a Scoop of Happiness!
+    
+    📅 Date: any  day
+    🕒 Time: any time
+    📍 Location: Chill Haven Ice Cream Parlor, 
+    
+    Don't miss out on the sweetest experience in town! Bring your friends, family, or just yourself, and let's create moments of pure joy together. RSVP now to reserve your spot in the world of delectable delights!
+    
+    Follow us on social media [@ChillHavenIceCream] for sneak peeks and special offers. See you at Chill Haven – where happiness is served one scoop at a time! 🌈🍨
+    
+                </pre>
+            </marquee>
+        </div>{
+    background-color: #ffeecc;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}*/
+
+
+
+/**/
+nav {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+  }
+/**/
+
+
+  
+  nav {
+        background-color: #f8f8f8;
+        padding: 10px;
+        text-align: center;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      li {
+        display: inline;
+        margin: 0 10px;
+      }
+      a {
+        text-decoration: none;
+        color: #333;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      a:hover {
+        color: #ff6600;
+      }
+/* idont know*/
+.home{
+    background-image: url('/WhatsApp\ Image\ 2023-11-14\ at\ 12.29.57_04a5ddba.jpg');
+background-size: cover;
+background-position: center;
+width:25%;
+}
+/* Add this CSS at the end of your existing styles.css file */
+/* Style the select dropdown */
+select {
+padding: 10px;
+font-size: 16px;
+border: 1px solid #ccc;
+border-radius: 5px;
+width: 200px;
+}
+
+/* Style the label */
+label {
+font-size: 18px;
+margin-bottom: 10px;
+display: block;
+}
+.image-container{
+    padding: 10px;
+}
+/*spleat screen*/
+.cty {
+display: flex;
+justify-content: center;
+}
+
+.images, .image2 {
+display: inline-block;
+}
+/*heart beat*/
+@keyframes heartbeat {
+0% {
+transform: scale(1);
+}
+55% {
+transform: scale(1.1);
+}
+50% {
+transform: scale(1);
+}
+75% {
+transform: scale(1.1);
+}
+100% {
+transform: scale(1);
+}
+}
+
+.images img, .image2 img {
+animation: heartbeat 1s infinite;
+}
+
+
+
+
+
+
+
+.con{
+    text-align: center;
+}
+.con h1{
+    font-size: 100px;
+    color: #fff;
+    font-weight: 600;
+}
+.con h3{
+    font-size: 60px;
+    color: #9e068a;
+    font-weight: 600;
+}
+ h3{
+    font-size: 60px;
+    color: #f1e6f0;
+    font-weight: 300px;
+}
+
+
+
+
+
+
+
+
+@keyframes glowingBorder {
+    0% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #00f0ff; /* Adjust the border color */
+    }
+    100% {
+        border-color: transparent;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    }
+    body {
+        background-color: #222; /* Set the background color for the entire webpage */
+        margin: 0;
+    }
+    
+    .code5{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+        position: relative;
+        padding: 0 5%;
+     
+        align-items: center;
+        justify-content: center;
+    }
+   
+    
+   
+    
+    .con h1:hover{
+        -webkit-text-stroke: 2px #a72290;
+        color: transparent;
+    }
+     h3:hover{
+        -webkit-text-stroke: 2px #a72290;
+        color: transparent;
+    }
+    .con a:hover{
+        -webkit-text-stroke: 2px #a72290;
+        color: transparent;
+    }
+    
+    
+    html {
+        font-size: 62.5%;
+    }
+   
+   
+  
+   
+    .vid{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index:-1;
+    }
+    @media (min-aspect-ratio:16/9){
+        .vid{
+            width: 100%;
+            height: auto;
+        }
+    }
+    @media (max-aspect-ratio:16/9){
+        .vid{
+            width: auto;
+            height: 100%;
+        }
+    }
+    .mu {
+        padding: 5% 5%;
+        height: 90%;
+        width: 95%;
+        background-color:transparent;
+        margin-top: 1.5px;
+    }
+ 
+  
+/*  .mu{
+    font-size: 60px;
+    color: #f1e6f0;
+    font-weight: 300px;
+}*/
+.con h1:hover{
+    -webkit-text-stroke: 2px rgb(201, 131, 90);
+    color: transparent;
+}
+ h3:hover{
+    -webkit-text-stroke: 2px RED;
+    color: transparent;
+}
+.con a:hover{
+    -webkit-text-stroke: 2px YELLOW;
+    color: transparent;
+}
+.con a{
+    text-decoration: none;
+    display: inline-block;
+    color: #800d0d;
+    font-size: 24px;
+    border: 2px solid transparent;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.image-container{
+    padding: 10px;
+}
+.headee{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+img {
+transition: transform 0.3s ease;
+}
+
+img:hover {
+transform: scale(1.1);
+}
+
+    .call{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+  marquee{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cty{
+    padding:2cm;
+
+  }
+
         .cty marquee img{
             padding: 25px;
             display: inline-flex;
